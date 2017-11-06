@@ -158,5 +158,4 @@ describe('ScorerService', function () {
             assert.equal(threeOfAKind, chance);
         })
     })
-  
 });

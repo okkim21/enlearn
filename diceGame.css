@@ -30,7 +30,7 @@ a:hover {
 
 .wrapper {
     margin: 50px; 
-    width: 35%;
+    width: 30%;
 }
 
 .dice-list {
@@ -38,8 +38,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     border: 1px solid #B4B4B4;
-    padding: 30px;
- 
+    padding: 15px;
 }
 
 .dice {
@@ -48,7 +47,7 @@ a:hover {
     border-radius: 4px;
     margin-right: 10px;
     margin-bottom: 2px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -72,9 +71,10 @@ a:hover {
     border: none; 
     background-color: #5A72D2; 
     color: #ffffff;
-    padding: 14px 50px; 
+    padding: 14px 40px; 
     font-size: 20px;
     letter-spacing: 3px;
+    border-radius: 4px;
     cursor: pointer; 
 }
 .roll-button:hover {background: #ACB4D4;}
