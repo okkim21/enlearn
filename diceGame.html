@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EnLearn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet">
+  <link href="diceGame.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="dice-list">
+      <div id="dice-side-1" class="dice dice1">1</div>
+      <div id="dice-side-2" class="dice dice2">2</div>
+      <div id="dice-side-3" class="dice dice3">3</div>
+      <div id="dice-side-4" class="dice dice4">4</div>
+      <div id="dice-side-5" class="dice dice5">5</div>
+    </div>
+
+    <div class="roll">
+      <button class="roll-button" id="rolling">Roll</button>
+      <label class="container">Include Chance
+            <input type="checkbox" id="isCheck">
+            <span class="checkmark"></span>
+          </label>
+
+    </div>
+    <div class="list" id="scoreList"></div>
+  </div>
+  <script type="text/javascript" src="./scorer/scorer.js"></script>
+  <script type="text/javascript" src="diceGame.js"></script>
+</body>
+
+</html>
